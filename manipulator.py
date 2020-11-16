@@ -23,6 +23,8 @@ def inverse_matrix():
 
 
 def matrix_n_by_n_determinant(nb_rows, nb_cols, matrix):
+    """find the determinant of a n by n matrix
+    """
     if nb_rows == 1:
         return matrix[0][0]
     if nb_rows == 2:
